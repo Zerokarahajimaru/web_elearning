@@ -1,0 +1,140 @@
+CRITICAL - 2025-09-09 22:53:19 --> ParseError: syntax error, unexpected token "var"
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-09 22:53:19 --> ParseError: syntax error, unexpected token "var"
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-09 22:53:25 --> ParseError: syntax error, unexpected token "var"
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-09 22:53:44 --> ParseError: syntax error, unexpected token "var"
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 6.
+ 1 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-09 23:09:37 --> Error: Class "App\Models\DataMahasiswa" not found
+[Method: GET, Route: mahasiswa]
+in APPPATH\Controllers\GetMhs.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-09 23:11:31 --> ErrorException: Attempt to read property "countAll" on array
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswa_list.php on line 7.
+ 1 APPPATH\Views\mahasiswa_list.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "countAll" on array', 'D:\\codeigniter4_framework\\app\\Views\\mahasiswa_list.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\mahasiswa_list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswa_list', [], true)
+ 5 APPPATH\Controllers\GetMhs.php(16): view('mahasiswa_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-09 23:12:17 --> ErrorException: Attempt to read property "countAll" on array
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswa_list.php on line 7.
+ 1 APPPATH\Views\mahasiswa_list.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "countAll" on array', 'D:\\codeigniter4_framework\\app\\Views\\mahasiswa_list.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\mahasiswa_list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswa_list', [], true)
+ 5 APPPATH\Controllers\GetMhs.php(16): view('mahasiswa_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-09 23:13:35 --> ErrorException: Attempt to read property "countAll" on array
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswa_list.php on line 7.
+ 1 APPPATH\Views\mahasiswa_list.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "countAll" on array', 'D:\\codeigniter4_framework\\app\\Views\\mahasiswa_list.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\mahasiswa_list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswa_list', [], true)
+ 5 APPPATH\Controllers\GetMhs.php(16): view('mahasiswa_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-09 23:14:12 --> ErrorException: Attempt to read property "countAll" on array
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswa_list.php on line 7.
+ 1 APPPATH\Views\mahasiswa_list.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "countAll" on array', 'D:\\codeigniter4_framework\\app\\Views\\mahasiswa_list.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\mahasiswa_list.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswa_list', [], true)
+ 5 APPPATH\Controllers\GetMhs.php(16): view('mahasiswa_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-09 23:16:20 --> ErrorException: Attempt to read property "countAll" on array
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 7.
+ 1 APPPATH\Views\mahasiswaList.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "countAll" on array', 'D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 5 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-09 23:20:17 --> ErrorException: Attempt to read property "countAll" on array
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 7.
+ 1 APPPATH\Views\mahasiswaList.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "countAll" on array', 'D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 5 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')

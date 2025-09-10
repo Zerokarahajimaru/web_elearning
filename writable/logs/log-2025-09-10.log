@@ -1,0 +1,1056 @@
+ERROR - 2025-09-10 00:40:24 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\codeigniter4_framework\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\codeigniter4_framework\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'akademik_db', 3306, '', 0)
+#1 D:\codeigniter4_framework\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\codeigniter4_framework\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\codeigniter4_framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\codeigniter4_framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\codeigniter4_framework\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\codeigniter4_framework\app\Controllers\GetMhs.php(14): CodeIgniter\BaseModel->findAll()
+#7 D:\codeigniter4_framework\system\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+#8 D:\codeigniter4_framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+#9 D:\codeigniter4_framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\codeigniter4_framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 D:\codeigniter4_framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\codeigniter4_framework\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\codeigniter4_framework\system\rewrite.php(44): require_once('D:\\codeigniter4...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\codeigniter4_framework\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\codeigniter4_framework\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\codeigniter4_framework\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\codeigniter4_framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\codeigniter4_framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\codeigniter4_framework\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\codeigniter4_framework\app\Controllers\GetMhs.php(14): CodeIgniter\BaseModel->findAll()
+#6 D:\codeigniter4_framework\system\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+#7 D:\codeigniter4_framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+#8 D:\codeigniter4_framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\codeigniter4_framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 D:\codeigniter4_framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\codeigniter4_framework\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\codeigniter4_framework\system\rewrite.php(44): require_once('D:\\codeigniter4...')
+#13 {main}
+CRITICAL - 2025-09-10 00:40:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: mahasiswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\GetMhs.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+ERROR - 2025-09-10 00:40:47 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\codeigniter4_framework\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\codeigniter4_framework\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'akademik_db', 3306, '', 0)
+#1 D:\codeigniter4_framework\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\codeigniter4_framework\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\codeigniter4_framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\codeigniter4_framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\codeigniter4_framework\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\codeigniter4_framework\app\Controllers\GetMhs.php(14): CodeIgniter\BaseModel->findAll()
+#7 D:\codeigniter4_framework\system\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+#8 D:\codeigniter4_framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+#9 D:\codeigniter4_framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\codeigniter4_framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 D:\codeigniter4_framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\codeigniter4_framework\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\codeigniter4_framework\system\rewrite.php(44): require_once('D:\\codeigniter4...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\codeigniter4_framework\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\codeigniter4_framework\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\codeigniter4_framework\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\codeigniter4_framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\codeigniter4_framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\codeigniter4_framework\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\codeigniter4_framework\app\Controllers\GetMhs.php(14): CodeIgniter\BaseModel->findAll()
+#6 D:\codeigniter4_framework\system\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+#7 D:\codeigniter4_framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+#8 D:\codeigniter4_framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\codeigniter4_framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 D:\codeigniter4_framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\codeigniter4_framework\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\codeigniter4_framework\system\rewrite.php(44): require_once('D:\\codeigniter4...')
+#13 {main}
+CRITICAL - 2025-09-10 00:40:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: mahasiswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\GetMhs.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+ERROR - 2025-09-10 00:41:32 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\codeigniter4_framework\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\codeigniter4_framework\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'akademik_db', 3306, '', 0)
+#1 D:\codeigniter4_framework\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\codeigniter4_framework\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\codeigniter4_framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\codeigniter4_framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\codeigniter4_framework\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\codeigniter4_framework\app\Controllers\GetMhs.php(14): CodeIgniter\BaseModel->findAll()
+#7 D:\codeigniter4_framework\system\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+#8 D:\codeigniter4_framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+#9 D:\codeigniter4_framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\codeigniter4_framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 D:\codeigniter4_framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\codeigniter4_framework\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\codeigniter4_framework\system\rewrite.php(44): require_once('D:\\codeigniter4...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\codeigniter4_framework\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\codeigniter4_framework\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\codeigniter4_framework\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\codeigniter4_framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\codeigniter4_framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\codeigniter4_framework\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\codeigniter4_framework\app\Controllers\GetMhs.php(14): CodeIgniter\BaseModel->findAll()
+#6 D:\codeigniter4_framework\system\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+#7 D:\codeigniter4_framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+#8 D:\codeigniter4_framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\codeigniter4_framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 D:\codeigniter4_framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\codeigniter4_framework\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\codeigniter4_framework\system\rewrite.php(44): require_once('D:\\codeigniter4...')
+#13 {main}
+CRITICAL - 2025-09-10 00:41:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: mahasiswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\GetMhs.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+ERROR - 2025-09-10 00:42:16 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\codeigniter4_framework\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\codeigniter4_framework\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'akademik_db', 3306, '', 0)
+#1 D:\codeigniter4_framework\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\codeigniter4_framework\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\codeigniter4_framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\codeigniter4_framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\codeigniter4_framework\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\codeigniter4_framework\app\Controllers\GetMhs.php(14): CodeIgniter\BaseModel->findAll()
+#7 D:\codeigniter4_framework\system\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+#8 D:\codeigniter4_framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+#9 D:\codeigniter4_framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\codeigniter4_framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 D:\codeigniter4_framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\codeigniter4_framework\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\codeigniter4_framework\system\rewrite.php(44): require_once('D:\\codeigniter4...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\codeigniter4_framework\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\codeigniter4_framework\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\codeigniter4_framework\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\codeigniter4_framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\codeigniter4_framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\codeigniter4_framework\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\codeigniter4_framework\app\Controllers\GetMhs.php(14): CodeIgniter\BaseModel->findAll()
+#6 D:\codeigniter4_framework\system\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+#7 D:\codeigniter4_framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+#8 D:\codeigniter4_framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\codeigniter4_framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 D:\codeigniter4_framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\codeigniter4_framework\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\codeigniter4_framework\system\rewrite.php(44): require_once('D:\\codeigniter4...')
+#13 {main}
+CRITICAL - 2025-09-10 00:42:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: mahasiswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\GetMhs.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 00:42:55 --> ErrorException: Attempt to read property "countAll" on array
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 7.
+ 1 APPPATH\Views\mahasiswaList.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "countAll" on array', 'D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 5 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 00:50:26 --> ErrorException: Attempt to read property "countAll" on array
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 7.
+ 1 APPPATH\Views\mahasiswaList.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "countAll" on array', 'D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 5 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 00:53:10 --> Error: Call to a member function findAll() on array
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 7.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 4 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 00:53:15 --> Error: Call to a member function findAll() on array
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 7.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 4 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 01:06:22 --> Error: Call to a member function findAll() on array
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 7.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 4 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 01:07:20 --> Error: Call to a member function findAll() on array
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 7.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 4 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 01:07:21 --> Error: Call to a member function findAll() on array
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 7.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 4 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 01:13:38 --> ErrorException: Undefined variable $result
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 8.
+ 1 APPPATH\Views\mahasiswaList.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 5 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 01:28:35 --> ErrorException: Undefined variable $result
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 8.
+ 1 APPPATH\Views\mahasiswaList.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 5 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 01:55:29 --> ErrorException: Undefined variable $result
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 8.
+ 1 APPPATH\Views\mahasiswaList.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 5 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 01:57:19 --> ErrorException: Undefined variable $result
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 8.
+ 1 APPPATH\Views\mahasiswaList.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 5 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 01:57:21 --> ErrorException: Undefined variable $result
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 8.
+ 1 APPPATH\Views\mahasiswaList.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 5 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 01:57:40 --> Error: Call to a member function first() on array
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 4 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 01:58:26 --> Error: Call to a member function first() on array
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 4 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 01:58:27 --> Error: Call to a member function first() on array
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 4 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 01:58:28 --> Error: Call to a member function first() on array
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 4 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 01:58:28 --> Error: Call to a member function first() on array
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 4 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:07:12 --> ParseError: syntax error, unexpected token ")", expecting "->" or "?->" or "{" or "["
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 8.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 3 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:09:01 --> ErrorException: Undefined variable $row
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 10.
+ 1 APPPATH\Views\mahasiswaList.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 5 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:13:12 --> ErrorException: Undefined array key "id_mhs"
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 10.
+ 1 APPPATH\Views\mahasiswaList.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_mhs"', 'D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 5 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:13:16 --> ErrorException: Undefined array key "id_mhs"
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 10.
+ 1 APPPATH\Views\mahasiswaList.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_mhs"', 'D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 5 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:13:17 --> ErrorException: Undefined array key "id_mhs"
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 10.
+ 1 APPPATH\Views\mahasiswaList.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_mhs"', 'D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 5 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:13:32 --> ErrorException: Undefined array key "id_mhs"
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 10.
+ 1 APPPATH\Views\mahasiswaList.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_mhs"', 'D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 5 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:14:01 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 11.
+ 1 APPPATH\Views\mahasiswaList.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 5 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:14:35 --> ErrorException: Undefined array key "id_mhs"
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 10.
+ 1 APPPATH\Views\mahasiswaList.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_mhs"', 'D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 5 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:21:27 --> ErrorException: Undefined array key "id_mhs"
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 10.
+ 1 APPPATH\Views\mahasiswaList.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_mhs"', 'D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 5 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:21:28 --> ErrorException: Undefined array key "id_mhs"
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 10.
+ 1 APPPATH\Views\mahasiswaList.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_mhs"', 'D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 5 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:21:28 --> ErrorException: Undefined array key "id_mhs"
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 10.
+ 1 APPPATH\Views\mahasiswaList.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_mhs"', 'D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 5 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:21:28 --> ErrorException: Undefined array key "id_mhs"
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 10.
+ 1 APPPATH\Views\mahasiswaList.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_mhs"', 'D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 5 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:23:30 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 7.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 4 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:23:30 --> [Caused by] ErrorException: Undefined variable $test
+in APPPATH\Views\mahasiswaList.php on line 7.
+ 1 APPPATH\Views\mahasiswaList.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $test', 'D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 5 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:23:54 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 4 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:23:54 --> [Caused by] ErrorException: Undefined variable $test
+in APPPATH\Views\mahasiswaList.php on line 8.
+ 1 APPPATH\Views\mahasiswaList.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $test', 'D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 5 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:23:59 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, int given
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 8.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 4 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:24:15 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 7.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 4 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:24:15 --> [Caused by] ErrorException: Undefined variable $test
+in APPPATH\Views\mahasiswaList.php on line 7.
+ 1 APPPATH\Views\mahasiswaList.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $test', 'D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\mahasiswaList.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 5 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:26:45 --> ParseError: syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 10.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 3 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:27:03 --> ParseError: syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 10.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 3 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:27:04 --> ParseError: syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 10.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 3 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:27:05 --> ParseError: syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 10.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 3 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:49:37 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "detail#14"
+[Method: GET, Route: mahasiswa/detail%2314]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('mahasiswa/detail#14')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('mahasiswa/detail#14')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:54:25 --> ParseError: syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 12.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 3 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:56:02 --> ParseError: syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 12.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 3 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:56:03 --> ParseError: syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 12.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 3 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:56:04 --> ParseError: syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 12.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 3 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:56:04 --> ParseError: syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 12.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 3 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:56:04 --> ParseError: syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 12.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 3 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:56:05 --> ParseError: syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 12.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 3 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:56:05 --> ParseError: syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 12.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 3 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:56:06 --> ParseError: syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 12.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 3 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:56:06 --> ParseError: syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 12.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 3 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:57:33 --> ParseError: syntax error, unexpected token "<"
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 12.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 3 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:57:42 --> ParseError: syntax error, unexpected variable "$row", expecting ")"
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 12.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 3 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:57:48 --> ParseError: syntax error, unexpected token "<"
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 12.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 3 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:58:26 --> TypeError: Unsupported operand types: string + string
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 12.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 4 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:58:27 --> TypeError: Unsupported operand types: string + string
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 12.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 4 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:58:28 --> TypeError: Unsupported operand types: string + string
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 12.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 4 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 02:58:28 --> TypeError: Unsupported operand types: string + string
+[Method: GET, Route: mahasiswa]
+in APPPATH\Views\mahasiswaList.php on line 12.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswaList', [], true)
+ 4 APPPATH\Controllers\GetMhs.php(16): view('mahasiswaList', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 03:33:56 --> ErrorException: Undefined variable $conn
+[Method: GET, Route: mahasiswa/detail/2314]
+in APPPATH\Views\mahasiswa_detail.php on line 12.
+ 1 APPPATH\Views\mahasiswa_detail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'D:\\codeigniter4_framework\\app\\Views\\mahasiswa_detail.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\mahasiswa_detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswa_detail', [], true)
+ 5 APPPATH\Controllers\GetMhs.php(22): view('mahasiswa_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getmhsspecificnim('2314')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 03:36:41 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: mahasiswa/detail/template_01.php]
+in APPPATH\Views\mahasiswa_detail.php on line 4.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswa_detail', [], true)
+ 4 APPPATH\Controllers\GetMhs.php(22): view('mahasiswa_detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getmhsspecificnim('template_01.php')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-10 03:36:46 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: mahasiswa/detail/template_01.php]
+in APPPATH\Views\mahasiswa_detail.php on line 4.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('mahasiswa_detail', [], true)
+ 4 APPPATH\Controllers\GetMhs.php(22): view('mahasiswa_detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getmhsspecificnim('template_01.php')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
