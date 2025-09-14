@@ -1,0 +1,220 @@
+CRITICAL - 2025-09-14 20:32:12 --> ArgumentCountError: Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in D:\codeigniter4_framework\app\Config\Routes.php on line 10 and at least 2 expected
+[Method: CLI, Route: seerve]
+in SYSTEMPATH\Router\RouteCollection.php on line 1050.
+ 1 APPPATH\Config\Routes.php(10): CodeIgniter\Router\RouteCollection->get('mahasiswa/detail/(:num),GetMhs::getmhsspecificnim/$1')
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('D:\\codeigniter4_framework\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CLI\Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\Boot.php(388): CodeIgniter\CLI\Console->run()
+ 5 SYSTEMPATH\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 6 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2025-09-14 20:32:29 --> ArgumentCountError: Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in D:\codeigniter4_framework\app\Config\Routes.php on line 10 and at least 2 expected
+[Method: CLI, Route: serve]
+in SYSTEMPATH\Router\RouteCollection.php on line 1050.
+ 1 APPPATH\Config\Routes.php(10): CodeIgniter\Router\RouteCollection->get('mahasiswa/detail/(:num),GetMhs::getmhsspecificnim/$1')
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('D:\\codeigniter4_framework\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CLI\Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\Boot.php(388): CodeIgniter\CLI\Console->run()
+ 5 SYSTEMPATH\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 6 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2025-09-14 20:32:36 --> ArgumentCountError: Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in D:\codeigniter4_framework\app\Config\Routes.php on line 10 and at least 2 expected
+[Method: CLI, Route: serve]
+in SYSTEMPATH\Router\RouteCollection.php on line 1050.
+ 1 APPPATH\Config\Routes.php(10): CodeIgniter\Router\RouteCollection->get('mahasiswa/detail/(:num),GetMhs::getmhsspecificnim/$1')
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('D:\\codeigniter4_framework\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CLI\Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\Boot.php(388): CodeIgniter\CLI\Console->run()
+ 5 SYSTEMPATH\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 6 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2025-09-14 20:32:46 --> ArgumentCountError: Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in D:\codeigniter4_framework\app\Config\Routes.php on line 10 and at least 2 expected
+[Method: CLI, Route: serve]
+in SYSTEMPATH\Router\RouteCollection.php on line 1050.
+ 1 APPPATH\Config\Routes.php(10): CodeIgniter\Router\RouteCollection->get('mahasiswa/detail/(:num),GetMhs::getmhsspecificnim/$1')
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('D:\\codeigniter4_framework\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CLI\Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\Boot.php(388): CodeIgniter\CLI\Console->run()
+ 5 SYSTEMPATH\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 6 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2025-09-14 20:33:58 --> ArgumentCountError: Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in D:\codeigniter4_framework\app\Config\Routes.php on line 10 and at least 2 expected
+[Method: CLI, Route: serve]
+in SYSTEMPATH\Router\RouteCollection.php on line 1050.
+ 1 APPPATH\Config\Routes.php(10): CodeIgniter\Router\RouteCollection->get('mahasiswa/detail/(:num),GetMhs::getmhsspecificnim/$1')
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('D:\\codeigniter4_framework\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CLI\Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\Boot.php(388): CodeIgniter\CLI\Console->run()
+ 5 SYSTEMPATH\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 6 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2025-09-14 20:34:54 --> ArgumentCountError: Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in D:\codeigniter4_framework\app\Config\Routes.php on line 10 and at least 2 expected
+[Method: CLI, Route: serve]
+in SYSTEMPATH\Router\RouteCollection.php on line 1050.
+ 1 APPPATH\Config\Routes.php(10): CodeIgniter\Router\RouteCollection->get('mahasiswa/detail/(:num),GetMhs::getmhsspecificnim/$1')
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('D:\\codeigniter4_framework\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CLI\Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\Boot.php(388): CodeIgniter\CLI\Console->run()
+ 5 SYSTEMPATH\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 6 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2025-09-14 20:36:27 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Controllers\GetMhs.php on line 26.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\codeigniter4_framework\\app\\Controllers\\GetMhs.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\GetMhs')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\GetMhs')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\GetMhs', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+ERROR - 2025-09-14 20:38:04 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\codeigniter4_framework\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\codeigniter4_framework\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'akademik_db', 3306, '', 0)
+#1 D:\codeigniter4_framework\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\codeigniter4_framework\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\codeigniter4_framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\codeigniter4_framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\codeigniter4_framework\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\codeigniter4_framework\app\Controllers\GetMhs.php(15): CodeIgniter\BaseModel->findAll()
+#7 D:\codeigniter4_framework\system\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+#8 D:\codeigniter4_framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+#9 D:\codeigniter4_framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\codeigniter4_framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 D:\codeigniter4_framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\codeigniter4_framework\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\codeigniter4_framework\system\rewrite.php(44): require_once('D:\\codeigniter4...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\codeigniter4_framework\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\codeigniter4_framework\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\codeigniter4_framework\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\codeigniter4_framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\codeigniter4_framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\codeigniter4_framework\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\codeigniter4_framework\app\Controllers\GetMhs.php(15): CodeIgniter\BaseModel->findAll()
+#6 D:\codeigniter4_framework\system\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+#7 D:\codeigniter4_framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+#8 D:\codeigniter4_framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\codeigniter4_framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 D:\codeigniter4_framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\codeigniter4_framework\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\codeigniter4_framework\system\rewrite.php(44): require_once('D:\\codeigniter4...')
+#13 {main}
+CRITICAL - 2025-09-14 20:38:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: mahasiswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\GetMhs.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+ERROR - 2025-09-14 20:38:22 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\codeigniter4_framework\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\codeigniter4_framework\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'akademik_db', 3306, '', 0)
+#1 D:\codeigniter4_framework\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\codeigniter4_framework\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\codeigniter4_framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\codeigniter4_framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\codeigniter4_framework\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\codeigniter4_framework\app\Controllers\GetMhs.php(15): CodeIgniter\BaseModel->findAll()
+#7 D:\codeigniter4_framework\system\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+#8 D:\codeigniter4_framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+#9 D:\codeigniter4_framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\codeigniter4_framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 D:\codeigniter4_framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\codeigniter4_framework\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\codeigniter4_framework\system\rewrite.php(44): require_once('D:\\codeigniter4...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\codeigniter4_framework\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\codeigniter4_framework\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\codeigniter4_framework\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\codeigniter4_framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\codeigniter4_framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\codeigniter4_framework\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\codeigniter4_framework\app\Controllers\GetMhs.php(15): CodeIgniter\BaseModel->findAll()
+#6 D:\codeigniter4_framework\system\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+#7 D:\codeigniter4_framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+#8 D:\codeigniter4_framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\codeigniter4_framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 D:\codeigniter4_framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\codeigniter4_framework\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\codeigniter4_framework\system\rewrite.php(44): require_once('D:\\codeigniter4...')
+#13 {main}
+CRITICAL - 2025-09-14 20:38:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: mahasiswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\GetMhs.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+ERROR - 2025-09-14 20:39:04 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\codeigniter4_framework\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\codeigniter4_framework\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'akademik_db', 3306, '', 0)
+#1 D:\codeigniter4_framework\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\codeigniter4_framework\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\codeigniter4_framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\codeigniter4_framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\codeigniter4_framework\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\codeigniter4_framework\app\Controllers\GetMhs.php(15): CodeIgniter\BaseModel->findAll()
+#7 D:\codeigniter4_framework\system\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+#8 D:\codeigniter4_framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+#9 D:\codeigniter4_framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\codeigniter4_framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 D:\codeigniter4_framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\codeigniter4_framework\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\codeigniter4_framework\system\rewrite.php(44): require_once('D:\\codeigniter4...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\codeigniter4_framework\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\codeigniter4_framework\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\codeigniter4_framework\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\codeigniter4_framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\codeigniter4_framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\codeigniter4_framework\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\codeigniter4_framework\app\Controllers\GetMhs.php(15): CodeIgniter\BaseModel->findAll()
+#6 D:\codeigniter4_framework\system\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+#7 D:\codeigniter4_framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+#8 D:\codeigniter4_framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\codeigniter4_framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 D:\codeigniter4_framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\codeigniter4_framework\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\codeigniter4_framework\system\rewrite.php(44): require_once('D:\\codeigniter4...')
+#13 {main}
+CRITICAL - 2025-09-14 20:39:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: mahasiswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\GetMhs.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GetMhs->getallmahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GetMhs))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')

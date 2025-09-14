@@ -2,6 +2,7 @@
 namespace App\Controllers;
 
 use App\Models\DataMahasiswa;
+use App\Models\LoginDB;
 
 class GetMhs extends BaseController
 {
@@ -22,5 +23,9 @@ class GetMhs extends BaseController
         return view('mahasiswa_detail',$data);
     }
 }
+    // public function ($id){
+    //     $model = new LoginDB();
+    //     $data[''] = $model->findAll();
+    // }
 
 ?>

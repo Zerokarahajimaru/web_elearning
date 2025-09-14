@@ -7,6 +7,6 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/','GetMhs::landingPage');
 $routes->get('mahasiswa', 'GetMhs::getallmahasiswa');
-$routes->get('mahasiswa/detail/(:num)', 'GetMhs::getmhsspecificnim/$1');
-
+$routes->get('mahasiswa/detail/(:num)','GetMhs::getmhsspecificnim/$1');
+// $routes
 ?>
