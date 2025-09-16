@@ -1,5 +1,3 @@
-
-
 <form action ="<?= base_url("auth")  ?>"  method="post" >
 <label>USERNAME</label>
 <br>

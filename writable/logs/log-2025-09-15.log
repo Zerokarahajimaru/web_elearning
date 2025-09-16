@@ -577,3 +577,82 @@ in APPPATH\Controllers\Post_User.php on line 27.
  6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
  8 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-15 23:41:43 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: auth]
+in APPPATH\Controllers\Post_User.php on line 27.
+ 1 APPPATH\Controllers\Post_User.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\codeigniter4_framework\\app\\Controllers\\Post_User.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post_User->compare()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post_User))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-15 23:41:44 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: auth]
+in APPPATH\Controllers\Post_User.php on line 27.
+ 1 APPPATH\Controllers\Post_User.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\codeigniter4_framework\\app\\Controllers\\Post_User.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post_User->compare()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post_User))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-15 23:41:51 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: auth]
+in APPPATH\Controllers\Post_User.php on line 27.
+ 1 APPPATH\Controllers\Post_User.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\codeigniter4_framework\\app\\Controllers\\Post_User.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post_User->compare()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post_User))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-15 23:46:10 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: auth]
+in APPPATH\Controllers\Post_User.php on line 27.
+ 1 APPPATH\Controllers\Post_User.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\codeigniter4_framework\\app\\Controllers\\Post_User.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post_User->compare()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post_User))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-15 23:46:25 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: auth]
+in APPPATH\Controllers\Post_User.php on line 27.
+ 1 APPPATH\Controllers\Post_User.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\codeigniter4_framework\\app\\Controllers\\Post_User.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post_User->compare()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post_User))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-15 23:47:37 --> ParseError: syntax error, unexpected token "}"
+[Method: POST, Route: auth]
+in APPPATH\Controllers\Post_User.php on line 31.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\codeigniter4_framework\\app\\Controllers\\Post_User.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Post_User')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Post_User')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Post_User', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-15 23:51:05 --> ErrorException: Array to string conversion
+[Method: POST, Route: auth]
+in APPPATH\Controllers\Post_User.php on line 29.
+ 1 APPPATH\Controllers\Post_User.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\codeigniter4_framework\\app\\Controllers\\Post_User.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post_User->compare()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post_User))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')

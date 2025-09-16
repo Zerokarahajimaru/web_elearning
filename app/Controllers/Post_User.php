@@ -23,34 +23,41 @@ class Post_User extends BaseController{
         $data = new Data_Login();
         $button_login = $this->save_data();
         //bikin key baru bernama login
-        $data_login['login']=$data->where('username',$button_login['username_html'])->where('password',$button_login['password_html'])->first();
-        echo $data_login['login']->role;
-            if(!empty($data_login['login'])) 
-            $this->get_page_based_role($this->return_status_role($data_login['login']['role']));
-            else
+        $form = $data->select('nama, password,role')
+             ->where('nama', $button_login['username_html'])
+             ->where('password', $button_login['password_html'])
+             ->first();
+        //cek apakah ada username
+        if(isset($form['nama']) && isset($form['password'])){
+            echo $form['nama'] . $form['password'] ;
+            return $this->get_page_based_role($this->return_status_role($form['role']));
+        }else{
+            echo'tidak ada username';
             // return view('Page_Mahasiswa_Dashboard');
-            return redirect()->to(base_url('dashboard'));
+            return redirect()->to(base_url('/'));
+        }    
     }
+
     public function return_status_role($role){
         if($role == 'pelajar')return 1;
         else 
         if($role == 'admin') return 2;
-        else return 0;
+        else return 0;//nanti aku mau ngecrashin kalo unautorize :)
     }
 
     public function get_page_based_role($role_status_return){
         switch ($role_status_return) {
             case 1:
                 // return view('Page_Mahasiswa_Dashboard');
-                redirect()->to(base_url('dashboard_mahasiswa'));
+                return redirect()->to(base_url('dashboard_mahasiswa'));
                 break;
             case 2:
                 // return view('Page_Admin_Dashboard');
-                redirect()->to(base_url('dashboard_admin'));
+                return redirect()->to(base_url('dashboard_admin'));
                 break;
             default:
                 // return view('Page_Mahasiswa_Dashboard');
-                redirect()->to(base_url('/'));
+                return redirect()->to(base_url('/'));
                 break;
         }
     }

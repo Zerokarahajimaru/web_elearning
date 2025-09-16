@@ -6,6 +6,6 @@ use CodeIgniter\Model;
 class Data_Login extends Model{
     protected $table = "user";
     protected $primaryKey = 'id_users';
-    protected $allowedFields = ['username', 'password','role'];
+    protected $allowedFields = ['nama', 'password','role'];
 }
 ?>
