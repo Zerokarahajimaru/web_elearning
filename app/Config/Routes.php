@@ -18,5 +18,22 @@ $routes->post('auth','Post_User::compare');
 
 $routes->get('dashboard_admin','Get_Mahasiswa::getadmindashboard');
 
+
+$routes->get('dashboard_mahasiswa/course','Get_Mahasiswa::mahasiswaCourse');
+
+$routes->get('dashboard_mahasiswa/course/(:alphanum)','Get_Mahasiswa::getSpecificCourse/$1');
+
+//mengirim data enrollment keys
+$routes->post('dashboard_mahasiswa/course/(:any)','Post_Course::compare_course_credits/$1');
 // $routes
+
+$routes->post('dashboard_admin/delete','Post_Admin::compare_delete');
+
+$routes->group('', ['filter' => 'auth'], function($routes) {
+    $routes->get('dashboard_mahasiswa','Get_Mahasiswa::getDashboard');
+    $routes->get('dashboard_admin','Get_Mahasiswa::getadmindashboard');
+});
+
+$routes->get('superadmin','SuperAdmin::index', ['filter' => 'auth:admin']);
+
 ?>

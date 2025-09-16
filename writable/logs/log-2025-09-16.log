@@ -123,3 +123,944 @@ in APPPATH\Controllers\Get_Mahasiswa.php on line 18.
  5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
  7 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 02:46:03 --> ParseError: syntax error, unexpected token "endforeach", expecting end of file
+[Method: GET, Route: dashboard_admin]
+in APPPATH\Views\Page_Admin_Dashboard.php on line 11.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Page_Admin_Dashboard', [], true)
+ 3 APPPATH\Controllers\Get_Mahasiswa.php(31): view('Page_Admin_Dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getadmindashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 04:58:07 --> ErrorException: Cannot use App\Models\Data_Courses as Data_Courses because the name is already in use
+[Method: GET, Route: dashboard_admin]
+in APPPATH\Controllers\Get_Mahasiswa.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-09-16 05:00:15 --> Error: Class "codeigniter\Model" not found
+[Method: GET, Route: dashboard_admin]
+in APPPATH\Models\Data_Courses.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\codeigniter4_framework\\app\\Models\\Data_Courses.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Data_Courses')
+ 4 APPPATH\Controllers\Get_Mahasiswa.php(33): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Data_Courses')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getadmindashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 05:01:10 --> ParseError: syntax error, unexpected token "endforeach", expecting end of file
+[Method: GET, Route: dashboard_admin]
+in APPPATH\Views\Page_Admin_Dashboard.php on line 12.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Page_Admin_Dashboard', [], true)
+ 3 APPPATH\Controllers\Get_Mahasiswa.php(35): view('Page_Admin_Dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getadmindashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 05:02:43 --> ParseError: syntax error, unexpected token "endforeach", expecting end of file
+[Method: GET, Route: dashboard_admin]
+in APPPATH\Views\Page_Admin_Dashboard.php on line 12.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Page_Admin_Dashboard', [], true)
+ 3 APPPATH\Controllers\Get_Mahasiswa.php(35): view('Page_Admin_Dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getadmindashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 05:03:40 --> ParseError: syntax error, unexpected token "endforeach", expecting end of file
+[Method: GET, Route: dashboard_admin]
+in APPPATH\Views\Page_Admin_Dashboard.php on line 12.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Page_Admin_Dashboard', [], true)
+ 3 APPPATH\Controllers\Get_Mahasiswa.php(35): view('Page_Admin_Dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getadmindashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 05:03:41 --> ParseError: syntax error, unexpected token "endforeach", expecting end of file
+[Method: GET, Route: dashboard_admin]
+in APPPATH\Views\Page_Admin_Dashboard.php on line 12.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Page_Admin_Dashboard', [], true)
+ 3 APPPATH\Controllers\Get_Mahasiswa.php(35): view('Page_Admin_Dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getadmindashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 05:05:10 --> ParseError: syntax error, unexpected token "endforeach", expecting end of file
+[Method: GET, Route: dashboard_admin]
+in APPPATH\Views\Page_Admin_Dashboard.php on line 12.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Page_Admin_Dashboard', [], true)
+ 3 APPPATH\Controllers\Get_Mahasiswa.php(35): view('Page_Admin_Dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getadmindashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 05:05:12 --> ParseError: syntax error, unexpected token "endforeach", expecting end of file
+[Method: GET, Route: dashboard_admin]
+in APPPATH\Views\Page_Admin_Dashboard.php on line 12.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Page_Admin_Dashboard', [], true)
+ 3 APPPATH\Controllers\Get_Mahasiswa.php(35): view('Page_Admin_Dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getadmindashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 05:15:02 --> Error: Class "App\Controllers\Data_Mahasiswa" not found
+[Method: GET, Route: mahasiswa]
+in APPPATH\Controllers\Get_Mahasiswa.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getallmahasiswa()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 05:21:36 --> Error: Class "App\Controllers\Data_Mahasiswa" not found
+[Method: GET, Route: mahasiswa]
+in APPPATH\Controllers\Get_Mahasiswa.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getallmahasiswa()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 05:37:05 --> ParseError: syntax error, unexpected variable "$course_mahasiswa", expecting "("
+[Method: GET, Route: dashboard_mahasiswa/course]
+in APPPATH\Views\Page_Mahasiswa_Course.php on line 6.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Page_Mahasiswa_Course', [], true)
+ 3 APPPATH\Controllers\Get_Mahasiswa.php(43): view('Page_Mahasiswa_Course')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->mahasiswaCourse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 05:37:07 --> ParseError: syntax error, unexpected variable "$course_mahasiswa", expecting "("
+[Method: GET, Route: dashboard_mahasiswa/course]
+in APPPATH\Views\Page_Mahasiswa_Course.php on line 6.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Page_Mahasiswa_Course', [], true)
+ 3 APPPATH\Controllers\Get_Mahasiswa.php(43): view('Page_Mahasiswa_Course')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->mahasiswaCourse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 05:37:56 --> ParseError: syntax error, unexpected variable "$course_mahasiswa", expecting "("
+[Method: GET, Route: dashboard_mahasiswa/course]
+in APPPATH\Views\Page_Mahasiswa_Course.php on line 6.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Page_Mahasiswa_Course', [], true)
+ 3 APPPATH\Controllers\Get_Mahasiswa.php(43): view('Page_Mahasiswa_Course')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->mahasiswaCourse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 05:38:16 --> ParseError: syntax error, unexpected token ":", expecting "->" or "?->" or "{" or "["
+[Method: GET, Route: dashboard_mahasiswa/course]
+in APPPATH\Views\Page_Mahasiswa_Course.php on line 6.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Page_Mahasiswa_Course', [], true)
+ 3 APPPATH\Controllers\Get_Mahasiswa.php(43): view('Page_Mahasiswa_Course')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->mahasiswaCourse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 05:38:29 --> ErrorException: Undefined variable $course_mahasiswa
+[Method: GET, Route: dashboard_mahasiswa/course]
+in APPPATH\Views\Page_Mahasiswa_Course.php on line 6.
+ 1 APPPATH\Views\Page_Mahasiswa_Course.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $course_mahasiswa', 'D:\\codeigniter4_framework\\app\\Views\\Page_Mahasiswa_Course.php', 6)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\Page_Mahasiswa_Course.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Page_Mahasiswa_Course', [], true)
+ 5 APPPATH\Controllers\Get_Mahasiswa.php(43): view('Page_Mahasiswa_Course')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->mahasiswaCourse()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 06:11:41 --> ParseError: syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+[Method: GET, Route: dashboard_mahasiswa/course]
+in APPPATH\Config\Routes.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 06:12:03 --> ParseError: syntax error, unexpected token "&", expecting ")"
+[Method: GET, Route: dashboard_mahasiswa/course]
+in APPPATH\Controllers\Get_Mahasiswa.php on line 48.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\codeigniter4_framework\\app\\Controllers\\Get_Mahasiswa.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Get_Mahasiswa')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Get_Mahasiswa')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Get_Mahasiswa', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 06:13:50 --> Error: Class "App\Controllers\Data_Mahasiswa" not found
+[Method: GET, Route: dashboard_mahasiswa/course/Matematika]
+in APPPATH\Controllers\Get_Mahasiswa.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getSpecificCourse('Matematika')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 06:14:09 --> Error: Class "App\Controllers\Data_Course" not found
+[Method: GET, Route: dashboard_mahasiswa/course/Matematika]
+in APPPATH\Controllers\Get_Mahasiswa.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getSpecificCourse('Matematika')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+ERROR - 2025-09-16 10:35:16 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\codeigniter4_framework\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\codeigniter4_framework\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'akademik_db', 3306, '', 0)
+#1 D:\codeigniter4_framework\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\codeigniter4_framework\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\codeigniter4_framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `nama`, ...', Array, false)
+#4 D:\codeigniter4_framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\codeigniter4_framework\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#6 D:\codeigniter4_framework\app\Controllers\Post_User.php(29): CodeIgniter\BaseModel->first()
+#7 D:\codeigniter4_framework\system\CodeIgniter.php(933): App\Controllers\Post_User->compare()
+#8 D:\codeigniter4_framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post_User))
+#9 D:\codeigniter4_framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\codeigniter4_framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 D:\codeigniter4_framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\codeigniter4_framework\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\codeigniter4_framework\system\rewrite.php(44): require_once('D:\\codeigniter4...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\codeigniter4_framework\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\codeigniter4_framework\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\codeigniter4_framework\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\codeigniter4_framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `nama`, ...', Array, false)
+#3 D:\codeigniter4_framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\codeigniter4_framework\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#5 D:\codeigniter4_framework\app\Controllers\Post_User.php(29): CodeIgniter\BaseModel->first()
+#6 D:\codeigniter4_framework\system\CodeIgniter.php(933): App\Controllers\Post_User->compare()
+#7 D:\codeigniter4_framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post_User))
+#8 D:\codeigniter4_framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\codeigniter4_framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 D:\codeigniter4_framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\codeigniter4_framework\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\codeigniter4_framework\system\rewrite.php(44): require_once('D:\\codeigniter4...')
+#13 {main}
+CRITICAL - 2025-09-16 10:35:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: auth]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `nama`, `password`, `role`
+FROM `user`
+WHERE `nama` = :nama:
+AND `password` = :password:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Post_User.php(29): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post_User->compare()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post_User))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 10:36:09 --> ParseError: syntax error, unexpected token ";", expecting variable or "{" or "$"
+[Method: GET, Route: dashboard_mahasiswa/course/Matematika]
+in APPPATH\Views\Page_Mahasiswa_Specific_Course.php on line 5.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Page_Mahasiswa_Specific_Course', [], true)
+ 3 APPPATH\Controllers\Get_Mahasiswa.php(49): view('Page_Mahasiswa_Specific_Course', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getSpecificCourse('Matematika')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 10:36:14 --> ParseError: syntax error, unexpected token ";", expecting variable or "{" or "$"
+[Method: GET, Route: dashboard_mahasiswa/course/Matematika]
+in APPPATH\Views\Page_Mahasiswa_Specific_Course.php on line 5.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Page_Mahasiswa_Specific_Course', [], true)
+ 3 APPPATH\Controllers\Get_Mahasiswa.php(49): view('Page_Mahasiswa_Specific_Course', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getSpecificCourse('Matematika')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 10:36:19 --> ParseError: syntax error, unexpected token ";", expecting variable or "{" or "$"
+[Method: GET, Route: dashboard_mahasiswa/course/Matematika]
+in APPPATH\Views\Page_Mahasiswa_Specific_Course.php on line 5.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Page_Mahasiswa_Specific_Course', [], true)
+ 3 APPPATH\Controllers\Get_Mahasiswa.php(49): view('Page_Mahasiswa_Specific_Course', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getSpecificCourse('Matematika')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 10:39:27 --> ErrorException: Undefined variable $course_specific
+[Method: GET, Route: dashboard_mahasiswa/course/Matematika]
+in APPPATH\Views\Page_Mahasiswa_Specific_Course.php on line 5.
+ 1 APPPATH\Views\Page_Mahasiswa_Specific_Course.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $course_specific', 'D:\\codeigniter4_framework\\app\\Views\\Page_Mahasiswa_Specific_Course.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\Page_Mahasiswa_Specific_Course.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Page_Mahasiswa_Specific_Course', [], true)
+ 5 APPPATH\Controllers\Get_Mahasiswa.php(49): view('Page_Mahasiswa_Specific_Course', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getSpecificCourse('Matematika')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 10:39:29 --> ErrorException: Undefined variable $course_specific
+[Method: GET, Route: dashboard_mahasiswa/course/Matematika]
+in APPPATH\Views\Page_Mahasiswa_Specific_Course.php on line 5.
+ 1 APPPATH\Views\Page_Mahasiswa_Specific_Course.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $course_specific', 'D:\\codeigniter4_framework\\app\\Views\\Page_Mahasiswa_Specific_Course.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\Page_Mahasiswa_Specific_Course.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Page_Mahasiswa_Specific_Course', [], true)
+ 5 APPPATH\Controllers\Get_Mahasiswa.php(49): view('Page_Mahasiswa_Specific_Course', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getSpecificCourse('Matematika')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 10:40:15 --> ErrorException: Undefined variable $course_specific
+[Method: GET, Route: dashboard_mahasiswa/course/Matematika]
+in APPPATH\Views\Page_Mahasiswa_Specific_Course.php on line 5.
+ 1 APPPATH\Views\Page_Mahasiswa_Specific_Course.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $course_specific', 'D:\\codeigniter4_framework\\app\\Views\\Page_Mahasiswa_Specific_Course.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\Page_Mahasiswa_Specific_Course.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Page_Mahasiswa_Specific_Course', [], true)
+ 5 APPPATH\Controllers\Get_Mahasiswa.php(49): view('Page_Mahasiswa_Specific_Course', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getSpecificCourse('Matematika')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 10:40:16 --> ErrorException: Undefined variable $course_specific
+[Method: GET, Route: dashboard_mahasiswa/course/Matematika]
+in APPPATH\Views\Page_Mahasiswa_Specific_Course.php on line 5.
+ 1 APPPATH\Views\Page_Mahasiswa_Specific_Course.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $course_specific', 'D:\\codeigniter4_framework\\app\\Views\\Page_Mahasiswa_Specific_Course.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\Page_Mahasiswa_Specific_Course.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Page_Mahasiswa_Specific_Course', [], true)
+ 5 APPPATH\Controllers\Get_Mahasiswa.php(49): view('Page_Mahasiswa_Specific_Course', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getSpecificCourse('Matematika')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 11:30:24 --> Error: Call to undefined function App\Controllers\where()
+[Method: POST, Route: dashboard_mahasiswa/course/Matematika]
+in APPPATH\Controllers\Post_Course.php on line 19.
+ 1 APPPATH\Controllers\Post_Course.php(24): App\Controllers\Post_Course->convert_course_name_to_credits('Matematika')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post_Course->compare_course_credits('Matematika')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post_Course))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 11:31:15 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "http://localhost:8080/dashboard_mahasiswa/course/Matematika" cannot be found.
+[Method: POST, Route: dashboard_mahasiswa/course/Matematika]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 63.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/dashboard_mahasiswa/course/Matematika')
+ 2 SYSTEMPATH\Common.php(851): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Post_Course.php(32): redirect('http://localhost:8080/dashboard_mahasiswa/course/Matematika')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post_Course->compare_course_credits('Matematika')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post_Course))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 11:31:23 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "http://localhost:8080/dashboard_mahasiswa/course/Matematika" cannot be found.
+[Method: POST, Route: dashboard_mahasiswa/course/Matematika]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 63.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/dashboard_mahasiswa/course/Matematika')
+ 2 SYSTEMPATH\Common.php(851): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Post_Course.php(32): redirect('http://localhost:8080/dashboard_mahasiswa/course/Matematika')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post_Course->compare_course_credits('Matematika')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post_Course))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 11:32:36 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "http://localhost:8080/dashboard_mahasiswa/course/Matematika" cannot be found.
+[Method: POST, Route: dashboard_mahasiswa/course/Matematika]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 63.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/dashboard_mahasiswa/course/Matematika')
+ 2 SYSTEMPATH\Common.php(851): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Post_Course.php(32): redirect('http://localhost:8080/dashboard_mahasiswa/course/Matematika')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post_Course->compare_course_credits('Matematika')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post_Course))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 11:33:53 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "http://localhost:8080/dashboard_mahasiswa/course/Matematika" cannot be found.
+[Method: POST, Route: dashboard_mahasiswa/course/Matematika]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 63.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/dashboard_mahasiswa/course/Matematika')
+ 2 SYSTEMPATH\Common.php(851): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Post_Course.php(32): redirect('http://localhost:8080/dashboard_mahasiswa/course/Matematika')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post_Course->compare_course_credits('Matematika')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post_Course))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 11:34:37 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "http://localhost:8080/dashboard_mahasiswa/course/Matematika" cannot be found.
+[Method: POST, Route: dashboard_mahasiswa/course/Matematika]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 63.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/dashboard_mahasiswa/course/Matematika')
+ 2 SYSTEMPATH\Common.php(851): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Post_Course.php(32): redirect('http://localhost:8080/dashboard_mahasiswa/course/Matematika')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post_Course->compare_course_credits('Matematika')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post_Course))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 11:39:28 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "http://localhost:8080/dashboard_mahasiswa/course/Matematika" cannot be found.
+[Method: POST, Route: dashboard_mahasiswa/course/Matematika]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 63.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/dashboard_mahasiswa/course/Matematika')
+ 2 SYSTEMPATH\Common.php(851): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Post_Course.php(32): redirect('http://localhost:8080/dashboard_mahasiswa/course/Matematika')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post_Course->compare_course_credits('Matematika')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post_Course))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 11:39:40 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "http://localhost:8080/dashboard_mahasiswa/course/Matematika" cannot be found.
+[Method: POST, Route: dashboard_mahasiswa/course/Matematika]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 63.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/dashboard_mahasiswa/course/Matematika')
+ 2 SYSTEMPATH\Common.php(851): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Post_Course.php(32): redirect('http://localhost:8080/dashboard_mahasiswa/course/Matematika')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post_Course->compare_course_credits('Matematika')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post_Course))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 11:39:44 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "http://localhost:8080/dashboard_mahasiswa/course/Matematika" cannot be found.
+[Method: POST, Route: dashboard_mahasiswa/course/Matematika]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 63.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/dashboard_mahasiswa/course/Matematika')
+ 2 SYSTEMPATH\Common.php(851): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Post_Course.php(32): redirect('http://localhost:8080/dashboard_mahasiswa/course/Matematika')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post_Course->compare_course_credits('Matematika')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post_Course))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 11:40:09 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "http://localhost:8080/dashboard_mahasiswa/course/Matematika" cannot be found.
+[Method: POST, Route: dashboard_mahasiswa/course/Matematika]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 63.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/dashboard_mahasiswa/course/Matematika')
+ 2 SYSTEMPATH\Common.php(851): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Post_Course.php(32): redirect('http://localhost:8080/dashboard_mahasiswa/course/Matematika')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post_Course->compare_course_credits('Matematika')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post_Course))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 11:43:37 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "http://localhost:8080/dashboard_mahasiswa/course/Matematika" cannot be found.
+[Method: POST, Route: dashboard_mahasiswa/course/Matematika]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 63.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/dashboard_mahasiswa/course/Matematika')
+ 2 SYSTEMPATH\Common.php(851): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Post_Course.php(32): redirect('http://localhost:8080/dashboard_mahasiswa/course/Matematika')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post_Course->compare_course_credits('Matematika')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post_Course))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 11:44:15 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "http://localhost:8080/" cannot be found.
+[Method: POST, Route: dashboard_mahasiswa/course/Matematika]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 63.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/')
+ 2 SYSTEMPATH\Common.php(851): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Post_Course.php(32): redirect('http://localhost:8080/')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post_Course->compare_course_credits('Matematika')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post_Course))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 11:44:36 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "http://localhost:8080/" cannot be found.
+[Method: POST, Route: dashboard_mahasiswa/course/Matematika]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 63.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/')
+ 2 SYSTEMPATH\Common.php(851): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Post_Course.php(32): redirect('http://localhost:8080/')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post_Course->compare_course_credits('Matematika')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post_Course))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 11:50:23 --> ErrorException: Array to string conversion
+[Method: POST, Route: dashboard_mahasiswa/course/Matematika]
+in APPPATH\Controllers\Post_Course.php on line 30.
+ 1 APPPATH\Controllers\Post_Course.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\codeigniter4_framework\\app\\Controllers\\Post_Course.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post_Course->compare_course_credits('Matematika')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post_Course))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 11:52:11 --> ErrorException: Undefined array key "data"
+[Method: POST, Route: dashboard_mahasiswa/course/Matematika]
+in APPPATH\Controllers\Post_Course.php on line 30.
+ 1 APPPATH\Controllers\Post_Course.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data"', 'D:\\codeigniter4_framework\\app\\Controllers\\Post_Course.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post_Course->compare_course_credits('Matematika')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post_Course))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 11:52:15 --> ErrorException: Undefined array key "data"
+[Method: POST, Route: dashboard_mahasiswa/course/Matematika]
+in APPPATH\Controllers\Post_Course.php on line 30.
+ 1 APPPATH\Controllers\Post_Course.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data"', 'D:\\codeigniter4_framework\\app\\Controllers\\Post_Course.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post_Course->compare_course_credits('Matematika')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post_Course))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 11:54:55 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in D:\codeigniter4_framework\system\Model.php on line 925
+[Method: POST, Route: dashboard_mahasiswa/course/Matematika]
+in SYSTEMPATH\Database\BaseBuilder.php on line 403.
+ 1 SYSTEMPATH\Model.php(925): CodeIgniter\Database\BaseBuilder->select('course_name', 'credits')
+ 2 APPPATH\Controllers\Post_Course.php(19): CodeIgniter\Model->__call('select', [...])
+ 3 APPPATH\Controllers\Post_Course.php(24): App\Controllers\Post_Course->convert_course_name_to_credits('Matematika')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Post_Course->compare_course_credits('Matematika')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post_Course))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 12:07:15 --> ErrorException: Undefined variable $course_mahasiswa
+[Method: GET, Route: dashboard_admin]
+in APPPATH\Views\Page_Admin_Dashboard.php on line 10.
+ 1 APPPATH\Views\Page_Admin_Dashboard.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $course_mahasiswa', 'D:\\codeigniter4_framework\\app\\Views\\Page_Admin_Dashboard.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\Page_Admin_Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Page_Admin_Dashboard', [], true)
+ 5 APPPATH\Controllers\Get_Mahasiswa.php(36): view('Page_Admin_Dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getadmindashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 12:25:34 --> ErrorException: Undefined variable $course_var
+[Method: GET, Route: dashboard_admin]
+in APPPATH\Views\Page_Admin_Dashboard.php on line 10.
+ 1 APPPATH\Views\Page_Admin_Dashboard.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $course_var', 'D:\\codeigniter4_framework\\app\\Views\\Page_Admin_Dashboard.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\Page_Admin_Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Page_Admin_Dashboard', [], true)
+ 5 APPPATH\Controllers\Get_Mahasiswa.php(39): view('Page_Admin_Dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getadmindashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 12:25:54 --> ErrorException: Undefined array key "course_name"
+[Method: GET, Route: dashboard_admin]
+in APPPATH\Views\Page_Admin_Dashboard.php on line 11.
+ 1 APPPATH\Views\Page_Admin_Dashboard.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "course_name"', 'D:\\codeigniter4_framework\\app\\Views\\Page_Admin_Dashboard.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\Page_Admin_Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Page_Admin_Dashboard', [], true)
+ 5 APPPATH\Controllers\Get_Mahasiswa.php(39): view('Page_Admin_Dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getadmindashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 12:26:24 --> ErrorException: Undefined array key "course_name"
+[Method: GET, Route: dashboard_admin]
+in APPPATH\Views\Page_Admin_Dashboard.php on line 11.
+ 1 APPPATH\Views\Page_Admin_Dashboard.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "course_name"', 'D:\\codeigniter4_framework\\app\\Views\\Page_Admin_Dashboard.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\Page_Admin_Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Page_Admin_Dashboard', [], true)
+ 5 APPPATH\Controllers\Get_Mahasiswa.php(39): view('Page_Admin_Dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getadmindashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 12:26:43 --> ErrorException: Undefined array key "course_name"
+[Method: GET, Route: dashboard_admin]
+in APPPATH\Views\Page_Admin_Dashboard.php on line 11.
+ 1 APPPATH\Views\Page_Admin_Dashboard.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "course_name"', 'D:\\codeigniter4_framework\\app\\Views\\Page_Admin_Dashboard.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\Page_Admin_Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Page_Admin_Dashboard', [], true)
+ 5 APPPATH\Controllers\Get_Mahasiswa.php(39): view('Page_Admin_Dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getadmindashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 12:27:52 --> ErrorException: Undefined array key "course_name"
+[Method: GET, Route: dashboard_admin]
+in APPPATH\Views\Page_Admin_Dashboard.php on line 11.
+ 1 APPPATH\Views\Page_Admin_Dashboard.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "course_name"', 'D:\\codeigniter4_framework\\app\\Views\\Page_Admin_Dashboard.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\Page_Admin_Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Page_Admin_Dashboard', [], true)
+ 5 APPPATH\Controllers\Get_Mahasiswa.php(38): view('Page_Admin_Dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getadmindashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 12:46:00 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: dashboard_admin]
+in APPPATH\Views\Page_Admin_Dashboard.php on line 17.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Page_Admin_Dashboard', [], true)
+ 3 APPPATH\Controllers\Get_Mahasiswa.php(38): view('Page_Admin_Dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getadmindashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 12:46:12 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: dashboard_admin]
+in APPPATH\Views\Page_Admin_Dashboard.php on line 17.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Page_Admin_Dashboard', [], true)
+ 3 APPPATH\Controllers\Get_Mahasiswa.php(38): view('Page_Admin_Dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getadmindashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 13:01:20 --> ErrorException: Undefined variable $row
+[Method: GET, Route: dashboard_admin]
+in APPPATH\Views\Page_Admin_Dashboard.php on line 12.
+ 1 APPPATH\Views\Page_Admin_Dashboard.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'D:\\codeigniter4_framework\\app\\Views\\Page_Admin_Dashboard.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\Page_Admin_Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Page_Admin_Dashboard', [], true)
+ 5 APPPATH\Controllers\Get_Mahasiswa.php(38): view('Page_Admin_Dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getadmindashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 13:28:01 --> ErrorException: Undefined array key "id_mhs"
+[Method: GET, Route: dashboard_admin]
+in APPPATH\Views\Page_Admin_Dashboard.php on line 18.
+ 1 APPPATH\Views\Page_Admin_Dashboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_mhs"', 'D:\\codeigniter4_framework\\app\\Views\\Page_Admin_Dashboard.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\Page_Admin_Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Page_Admin_Dashboard', [], true)
+ 5 APPPATH\Controllers\Get_Mahasiswa.php(38): view('Page_Admin_Dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getadmindashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 13:28:13 --> ErrorException: Undefined array key "id_mhs"
+[Method: GET, Route: dashboard_admin]
+in APPPATH\Views\Page_Admin_Dashboard.php on line 18.
+ 1 APPPATH\Views\Page_Admin_Dashboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_mhs"', 'D:\\codeigniter4_framework\\app\\Views\\Page_Admin_Dashboard.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\Page_Admin_Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Page_Admin_Dashboard', [], true)
+ 5 APPPATH\Controllers\Get_Mahasiswa.php(38): view('Page_Admin_Dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getadmindashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 13:29:36 --> ErrorException: Undefined array key "nama_mahasiswa"
+[Method: GET, Route: dashboard_admin]
+in APPPATH\Views\Page_Admin_Dashboard.php on line 19.
+ 1 APPPATH\Views\Page_Admin_Dashboard.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_mahasiswa"', 'D:\\codeigniter4_framework\\app\\Views\\Page_Admin_Dashboard.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\Page_Admin_Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Page_Admin_Dashboard', [], true)
+ 5 APPPATH\Controllers\Get_Mahasiswa.php(38): view('Page_Admin_Dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getadmindashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 20:43:53 --> Error: Cannot use object of type App\Models\Data_Mahasiswa as array
+[Method: GET, Route: dashboard_admin]
+in APPPATH\Controllers\Get_Mahasiswa.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getadmindashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 20:43:54 --> Error: Cannot use object of type App\Models\Data_Mahasiswa as array
+[Method: GET, Route: dashboard_admin]
+in APPPATH\Controllers\Get_Mahasiswa.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getadmindashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 20:43:54 --> Error: Cannot use object of type App\Models\Data_Mahasiswa as array
+[Method: GET, Route: dashboard_admin]
+in APPPATH\Controllers\Get_Mahasiswa.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getadmindashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 21:02:52 --> ErrorException: Undefined variable $takes_plus_mahasiswa
+[Method: GET, Route: dashboard_admin]
+in APPPATH\Views\Page_Admin_Dashboard.php on line 15.
+ 1 APPPATH\Views\Page_Admin_Dashboard.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $takes_plus_mahasiswa', 'D:\\codeigniter4_framework\\app\\Views\\Page_Admin_Dashboard.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\Page_Admin_Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Page_Admin_Dashboard', [], true)
+ 5 APPPATH\Controllers\Get_Mahasiswa.php(42): view('Page_Admin_Dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getadmindashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 21:03:13 --> ErrorException: Undefined variable $row
+[Method: GET, Route: dashboard_admin]
+in APPPATH\Views\Page_Admin_Dashboard.php on line 17.
+ 1 APPPATH\Views\Page_Admin_Dashboard.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'D:\\codeigniter4_framework\\app\\Views\\Page_Admin_Dashboard.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\codeigniter4_framework\\app\\Views\\Page_Admin_Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Page_Admin_Dashboard', [], true)
+ 5 APPPATH\Controllers\Get_Mahasiswa.php(42): view('Page_Admin_Dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Get_Mahasiswa->getadmindashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Get_Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\codeigniter4_framework\\public\\index.php')
+CRITICAL - 2025-09-16 21:35:52 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<"
+[Method: POST, Route: %3C]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('<')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('<')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-16 21:36:30 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<"
+[Method: POST, Route: %3C]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('<')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('<')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-16 21:36:34 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<"
+[Method: POST, Route: %3C]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('<')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('<')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-16 21:36:59 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<"
+[Method: POST, Route: %3C]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('<')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('<')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-16 21:37:08 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<"
+[Method: POST, Route: %3C]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('<')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('<')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-16 21:38:33 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<"
+[Method: POST, Route: %3C]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('<')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('<')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-16 21:38:35 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<"
+[Method: POST, Route: %3C]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('<')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('<')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-16 21:40:07 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<"
+[Method: POST, Route: %3C]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('<')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('<')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-16 21:41:28 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<"
+[Method: POST, Route: %3C]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('<')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('<')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-16 21:41:32 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<"
+[Method: POST, Route: %3C]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('<')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('<')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

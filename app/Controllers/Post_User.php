@@ -17,26 +17,33 @@ class Post_User extends BaseController{
         return $button_login;
     }
 
-    public function compare()
-    {   
-        $status = false;
-        $data = new Data_Login();
-        $button_login = $this->save_data();
-        //bikin key baru bernama login
-        $form = $data->select('nama, password,role')
-             ->where('nama', $button_login['username_html'])
-             ->where('password', $button_login['password_html'])
-             ->first();
-        //cek apakah ada username
-        if(isset($form['nama']) && isset($form['password'])){
-            echo $form['nama'] . $form['password'] ;
-            return $this->get_page_based_role($this->return_status_role($form['role']));
-        }else{
-            echo'tidak ada username';
-            // return view('Page_Mahasiswa_Dashboard');
-            return redirect()->to(base_url('/'));
-        }    
+public function compare()
+{   
+    $data = new Data_Login();
+    $button_login = $this->save_data();
+
+    $form = $data->select('id_users, nama, password, role')
+                 ->where('nama', $button_login['username_html'])
+                 ->where('password', $button_login['password_html'])
+                 ->first();
+
+    if ($form) {
+        // session cuy
+        $session = session();
+        $session->set([
+            'user_id' => $form['id_users'],
+            'nama'    => $form['nama'],
+            'role'    => $form['role'],
+            'logged_in' => true
+        ]);
+
+        // redirect berdasarkan role
+        return $this->get_page_based_role($this->return_status_role($form['role']));
+    } else {
+        return redirect()->to(base_url('/'))->with('error', 'Username atau password salah');
     }
+}
+
 
     public function return_status_role($role){
         if($role == 'pelajar')return 1;

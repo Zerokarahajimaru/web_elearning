@@ -21,9 +21,11 @@
 
     <!-- Menu -->
     <div class="menu">
-        <a href="<?= base_url('/') ?>">Home</a>
+        <a href="<?= base_url('dashboard_mahasiswa') ?>">Home</a>
         
         <a href="<?= base_url('mahasiswa') ?>">list mahasiswa</a>
+
+        <a href="<?= base_url('dashboard_mahasiswa/course')?>" > course 👿👿🦑</a>
     </div>
 
 
