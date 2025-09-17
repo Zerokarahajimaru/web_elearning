@@ -2,37 +2,58 @@
 <html>
 <head>
     <title>Website SMA XYZ</title>
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; }
-        .container { width: 800px; margin: 0 auto; border: 1px solid #000; }
-        .header, .footer { padding: 15px; border-bottom: 1px solid #000; }
-        .footer { border-top: 1px solid #000; border-bottom: none; }
-        .menu { border-bottom: 1px solid #000; padding: 10px; text-align: left; }
-        .menu a { margin-right: 20px; text-decoration: none; }
-        .content { padding: 30px; min-height: 200px; }
-    </style>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-<div class="container">
+<body class="bg-light">
+
+<!-- Container utama -->
+<div class="container my-5" style="max-width: 900px;">
+
     <!-- Header -->
-    <div class="header">
-        <h2>WEBSITE SMA XYZ</h2>
-    </div>
+    <header class="text-center mb-4">
+        <h1 class="display-5 fw-bold text-primary">WEBSITE SMA XYZ</h1>
+    </header>
 
-    <!-- Menu -->
-    <div class="menu">
-        <a href="<?= base_url('dashboard_mahasiswa') ?>">Home</a>
-        
-        <a href="<?= base_url('mahasiswa') ?>">list mahasiswa</a>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm rounded mb-4">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-primary fw-semibold" href="<?= base_url('dashboard_mahasiswa') ?>">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary fw-semibold" href="<?= base_url('mahasiswa') ?>">List Mahasiswa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary fw-semibold" href="<?= base_url('dashboard_mahasiswa/course') ?>">Course 👿👿🦑</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-        <a href="<?= base_url('dashboard_mahasiswa/course')?>" > course 👿👿🦑</a>
-    </div>
-
+    <!-- Content -->
+    <main>
+        <div class="card shadow-sm mb-4">
+            <div class="card-body">
+                <h5 class="card-title">Selamat datang!</h5>
+                <p class="card-text">Ini adalah halaman utama website SMA XYZ. Gunakan menu di atas untuk navigasi.</p>
+            </div>
+        </div>
+    </main>
 
     <!-- Footer -->
-    <div class="footer">
+    <footer class="text-center py-3 mt-4 bg-primary text-white rounded">
         <b>Bandung - Jawa Barat</b>
-    </div>
+    </footer>
 </div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
