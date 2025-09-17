@@ -6,7 +6,7 @@ use CodeIgniter\HTTP\RequestInterface;
 use CodeIgniter\HTTP\ResponseInterface;
 use CodeIgniter\Filters\FilterInterface;
 
-class AuthFilter implements FilterInterface
+class AuthFilter_Gokil implements FilterInterface
 {
     public function before(RequestInterface $request, $arguments = null)
     {
@@ -18,13 +18,13 @@ class AuthFilter implements FilterInterface
         }
 
         // kalau filter punya argument role khusus
-        if ($arguments && isset($arguments[0])) {
-            $requiredRole = $arguments[0];
+        // if ($arguments && isset($arguments[0])) {
+        //     $requiredRole = $arguments[0];
 
-            if ($session->get('role') !== $requiredRole) {
-                return redirect()->to('/'); // atau forbidden page
-            }
-        }
+        //     if ($session->get('role') !== $requiredRole) {
+        //         return redirect()->to('/'); // atau forbidden page
+        //     }
+        // }
     }
 
     public function after(RequestInterface $request, ResponseInterface $response, $arguments = null)

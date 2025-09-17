@@ -7,19 +7,19 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/','Get_Mahasiswa::loginForm');
 // $routes->get('/','GetMhs::landingPage');
-$routes->get('dashboard_mahasiswa','Get_Mahasiswa::getDashboard');
-$routes->get('mahasiswa', 'Get_Mahasiswa::getallmahasiswa');
-$routes->get('mahasiswa/detail/(:num)','Get_Mahasiswa::getmhsspecificnim/$1');
+$routes->get('dashboard_mahasiswa','Get_Mahasiswa::getDashboard', ['filter' => 'authgokil:mahasiswa']);
+$routes->get('mahasiswa', 'Get_Mahasiswa::getallmahasiswa', ['filter' => 'authgokil:mahasiswa']);
+$routes->get('mahasiswa/detail/(:num)','Get_Mahasiswa::getmhsspecificnim/$1', ['filter' => 'authgokil:mahasiswa']);
 
 
 //untuk mengambil password
 $routes->post('auth','Post_User::compare');
 // $routes->get('auth',/*masukan class untuk*/)
 
-$routes->get('dashboard_admin','Get_Mahasiswa::getadmindashboard');
+$routes->get('dashboard_admin','Get_Mahasiswa::getadmindashboard',['filter' => 'authgokil:dosen']);
 
 
-$routes->get('dashboard_mahasiswa/course','Get_Mahasiswa::mahasiswaCourse');
+$routes->get('dashboard_mahasiswa/course','Get_Mahasiswa::mahasiswaCourse', ['filter' => 'authgokil:mahasiswa']);
 
 $routes->get('dashboard_mahasiswa/course/(:alphanum)','Get_Mahasiswa::getSpecificCourse/$1');
 
